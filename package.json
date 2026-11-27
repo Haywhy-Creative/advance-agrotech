@@ -2,6 +2,7 @@
   "name": "fasalrakshak-monorepo",
   "private": true,
   "scripts": {
+    "postinstall": "npm install --prefix frontend",
     "install-all": "npm install --prefix frontend",
     "dev": "npm run dev --prefix frontend",
     "build": "npm run build --prefix frontend",
